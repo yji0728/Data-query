@@ -1,0 +1,17 @@
+# Data Query Framework Configuration
+
+database:
+  path: "data_query.db"
+  
+logging:
+  level: "INFO"
+  file: "data_query.log"
+  
+web_extraction:
+  timeout: 30
+  headers:
+    User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    
+excel_extraction:
+  default_sheet: 0
+  header_row: 0
