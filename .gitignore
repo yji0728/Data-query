@@ -52,3 +52,9 @@ Thumbs.db
 tmp/
 temp/
 *.tmp
+
+# Example output files
+examples/*.xlsx
+examples/*.db
+examples/*.sqlite
+examples/*.sqlite3
